@@ -1,4 +1,4 @@
-﻿$packageName = 'snaketail'
+﻿$packageName = 'snaketail.install'
 $installerType = 'msi'
 $url = '{{DownloadUrl}}'
 $url64 = 'https://github.com/{{DownloadUrlx64}}'
