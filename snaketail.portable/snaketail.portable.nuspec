@@ -2,12 +2,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>snaketail.portable</id>
-        <version>1.8.2</version>
+        <version>{{PackageVersion}}</version>
         <title>SnakeTail</title>
-        <authors>sweaty1</authors>
-        <owners>bigsan</owners>
+        <authors>snakefoot</authors>
+        <owners>0x15e</owners>
         <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
-        <projectUrl>https://code.google.com/p/snaketail-net/</projectUrl>
+        <projectUrl>http://snakenest.com/snaketail/</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>SnakeTail is a Windows tail program that can monitor growing log files.</description>
         <summary>SnakeTail is a Windows tail program that can monitor growing log files.</summary>

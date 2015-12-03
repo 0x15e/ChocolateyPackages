@@ -1,5 +1,4 @@
 ﻿$packageName = 'snaketail.portable'
-$url = 'https://snaketail-net.googlecode.com/files/SnakeTail_v1.8.2.zip'
-$unzipLocation = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$url = '{{DownloadUrl}}'
 
-Install-ChocolateyZipPackage $packageName $url $unzipLocation
+Install-ChocolateyZipPackage "$packageName" "$url" "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
