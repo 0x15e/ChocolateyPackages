@@ -6,7 +6,7 @@
     <title>SnakeTail (Install)</title>
     <version>{{PackageVersion}}</version>
     <authors>snakefoot</authors>
-    <owners>0x15e</owners>
+    <owners>bigsan,0x15e</owners>
     <summary>SnakeTail is a Windows tail program that can monitor growing log files.</summary>
     <description>SnakeTail is a Windows tail program that can monitor growing log files.</description>
     <projectUrl>http://snakenest.com/snaketail/</projectUrl>

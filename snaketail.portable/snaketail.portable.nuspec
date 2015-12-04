@@ -6,7 +6,7 @@
         <version>{{PackageVersion}}</version>
         <title>SnakeTail (Portable)</title>
         <authors>snakefoot</authors>
-        <owners>0x15e</owners>
+        <owners>bigsan,0x15e</owners>
         <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
         <projectUrl>http://snakenest.com/snaketail/</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
