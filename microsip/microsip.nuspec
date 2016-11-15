@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>microsip</id>
+    <version>{{PackageVersion}}</version>
+    <title>MicroSIP</title>
+    <authors>microsip</authors>
+    <owners>juantascon,0x15e</owners>
+    <licenseUrl>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
+    <projectUrl>http://www.microsip.org</projectUrl>
+    <iconUrl>http://www.microsip.org/images/logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>It allowing to do high quality VoIP calls (person-to-person or on regular telephones) via open SIP protocol. From cloud of SIP providers you can choose best for you, register account and use it with MicroSIP. You'll get free person-to-person calls and cheap international calls.</description>
+    <summary>Open source portable SIP softphone based on PJSIP stack for Windows OS</summary>
+    <releaseNotes />
+    <copyright />
+    <tags>sip telephony phone calls softphone</tags>
+	<dependencies>
+		<dependency id="microsip.install" version="[{{PackageVersion}}]" />
+	</dependencies>
+  </metadata>
+</package>
