@@ -4,6 +4,7 @@
   <metadata>
     <id>snaketail.install</id>
     <title>SnakeTail (Install)</title>
+	<iconUrl>https://cdn.rawgit.com/0x15e/ChocolateyPackages/48cb9b7d83773a4e166daddf34efde46590ba230/snaketail/SnakeTail_0000.png</iconUrl>
     <version>{{PackageVersion}}</version>
     <authors>snakefoot</authors>
     <owners>bigsan,0x15e</owners>
@@ -12,7 +13,11 @@
     <projectUrl>http://snakenest.com/snaketail/</projectUrl>
     <tags>snaketail log tail</tags>
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
+	<packageSourceUrl>https://github.com/0x15e/ChocolateyPackages/tree/master/snaketail.install</packageSourceUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<releaseNotes>http://snakenest.com/snaketail/</releaseNotes>
+	<bugTrackerUrl>https://github.com/snakefoot/snaketail-net/issues</bugTrackerUrl>
+	<projectSourceUrl>https://github.com/snakefoot/snaketail-net</projectSourceUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

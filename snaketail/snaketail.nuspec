@@ -10,7 +10,7 @@
     <summary>SnakeTail is a Windows tail program that can monitor growing log files.</summary>
     <description>SnakeTail is a Windows tail program that can monitor growing log files.</description>
     <projectUrl>http://snakenest.com/snaketail/</projectUrl>
-    <tags>snaketail log tail</tags>
+    <tags>snaketail log tail admin</tags>
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<packageSourceUrl>https://github.com/0x15e/ChocolateyPackages/tree/master/snaketail</packageSourceUrl>

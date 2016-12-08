@@ -5,6 +5,7 @@
         <id>snaketail.portable</id>
         <version>{{PackageVersion}}</version>
         <title>SnakeTail (Portable)</title>
+		<iconUrl>https://cdn.rawgit.com/0x15e/ChocolateyPackages/48cb9b7d83773a4e166daddf34efde46590ba230/snaketail/SnakeTail_0000.png</iconUrl>
         <authors>snakefoot</authors>
         <owners>bigsan,0x15e</owners>
         <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
@@ -12,6 +13,10 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>SnakeTail is a Windows tail program that can monitor growing log files.</description>
         <summary>SnakeTail is a Windows tail program that can monitor growing log files.</summary>
+		<packageSourceUrl>https://github.com/0x15e/ChocolateyPackages/tree/master/snaketail.portable</packageSourceUrl>
+		<releaseNotes>http://snakenest.com/snaketail/</releaseNotes>
+		<bugTrackerUrl>https://github.com/snakefoot/snaketail-net/issues</bugTrackerUrl>
+		<projectSourceUrl>https://github.com/snakefoot/snaketail-net</projectSourceUrl>
         <tags>snaketail log tail</tags>
     </metadata>
 </package>

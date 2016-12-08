@@ -73,8 +73,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>778240</LastFileSize>
-    <LastFileDate>2015-10-10T02:48:47-05:00</LastFileDate>
+    <LastFileSize>761856</LastFileSize>
+    <LastFileDate>2016-08-17T17:06:27-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -107,7 +107,7 @@
       </item>
       <item>
         <key>
-          <string>url64</string>
+          <string>getUrl64</string>
         </key>
         <value>
           <UrlVariable>
@@ -115,23 +115,37 @@
             <VariableType>RegularExpression</VariableType>
             <Regex>snakefoot/snaketail-net/releases/download/\d+\.\d+\.\d+/SnakeTail\.v\d+\.\d+\.\d+\.x64\.msi</Regex>
             <Url>https://github.com/snakefoot/snaketail-net/releases/latest</Url>
-            <TextualContent>""</TextualContent>
-            <Name>url64</Name>
+            <Name>getUrl64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>snakefoot/snaketail-net/releases/download/\d+\.\d+\.\d+/SnakeTail\.v\d+\.\d+\.\d+\.x86\.msi</Regex>
+            <Url>https://github.com/snakefoot/snaketail-net/releases/latest</Url>
+            <Name>getUrl</Name>
           </UrlVariable>
         </value>
       </item>
     </Variables>
     <ExecuteCommand />
-    <ExecutePreCommand />
+    <ExecutePreCommand>chocopkgup /p snaketail /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}"  
+chocopkgup /p snaketail.install /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}" /c "{Checksum}" /c64 "{Checksumx64}"</ExecutePreCommand>
     <ExecuteCommandType>Batch</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\Chocolatey\_work\SnakeTail.v1.9.3.x86.msi</PreviousLocation>
+    <PreviousLocation>C:\Chocolatey\_work\SnakeTail.v1.9.4.x86.msi</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-12-03T16:28:09.0662433-06:00</LastUpdated>
+    <LastUpdated>2016-12-08T11:59:24.9328943-06:00</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>https://github.com/snakefoot/snaketail-net/releases/download/{version}/SnakeTail.v{version}.x86.msi</FixedDownloadUrl>
     <Name>snaketail.install</Name>
