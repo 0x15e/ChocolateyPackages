@@ -2,6 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>snaketail</id>
+	<iconUrl>https://cdn.rawgit.com/0x15e/ChocolateyPackages/48cb9b7d83773a4e166daddf34efde46590ba230/snaketail/SnakeTail_0000.png</iconUrl>
     <title>SnakeTail</title>
     <version>{{PackageVersion}}</version>
     <authors>snakefoot</authors>
@@ -12,11 +13,12 @@
     <tags>snaketail log tail</tags>
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<packageSourceUrl>https://github.com/0x15e/ChocolateyPackages/tree/master/snaketail</packageSourceUrl>
+	<releaseNotes>http://snakenest.com/snaketail/</releaseNotes>
+	<bugTrackerUrl>https://github.com/snakefoot/snaketail-net/issues</bugTrackerUrl>
+	<projectSourceUrl>https://github.com/snakefoot/snaketail-net</projectSourceUrl>
     <dependencies>
       <dependency id="snaketail.install" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
 </package>
